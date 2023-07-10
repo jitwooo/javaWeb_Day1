@@ -22,7 +22,8 @@
 <body>
 <form method="post" action="http://localhost:8080/login">
     用户名:<input type="text" name="username"><br/>
-    密码:<input type="number" name="password"><input type="submit" value="发送">
+    密码:<input type="number" name="password"><br/>
+    <input type="submit" value="发送">
 </form>
 </body>
 </html>

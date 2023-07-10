@@ -10,10 +10,9 @@
 <head>
     <title>登录成功</title>
 </head>
-<br>
+<body>
 <h1>用户信息</h1><br/>
 <h3>姓名：<%=((User)session.getAttribute("user")).getName()%></h3><br/>
 <h3>年龄：<%=((User)session.getAttribute("user")).getAge()%></h3><br/>
-<>
 </body>
 </html>
